@@ -1,0 +1,14 @@
+{
+    "type": "CyclicLR",
+    "params": {
+        "base_lr": 1e-6,
+        "max_lr": 1e-4,
+        "step_size_up": 3500,
+        "step_size_down": 3500,
+        "mode": "triangular2",
+        "gamma": 1.0,
+        "cycle_momentum": false,
+        "base_momentum": 0.85,
+        "max_momentum": 0.99
+    }
+}

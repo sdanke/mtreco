@@ -1,0 +1,13 @@
+# parameters
+trans: TPS          # Transformation stage
+feat_extra: ResNet  # FeatureExtraction stage
+seq_model: BiLSTM   # SequenceModeling stage
+prediction: Attn    # Prediction stage
+num_classes: 6022   # number of classes
+in_height: 48       # height of the input image
+in_width: 192       # width of the input image
+in_channel: 1       # the number of input channel of Feature extractor
+out_channel: 512    # number of output channel of Feature extractor
+hidden_size: 256    # size of the LSTM hidden state
+num_fiducial: 20    # number of fiducial points of TPS-STN
+batch_max_length: 25 # maximum-label-length

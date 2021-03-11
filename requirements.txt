@@ -1,0 +1,9 @@
+tqdm
+fonttool
+numpy
+opencv-python>=4.1.2
+pillow
+PyYAML>=5.3
+tensorboardX
+torch>=1.7.1
+torchvision>=0.8.2

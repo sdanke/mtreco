@@ -1,0 +1,10 @@
+.vscode
+.git
+__pycache__
+
+pretrained
+data/fonts
+exps
+
+tools/playboard.ipynb
+data
